@@ -1,0 +1,6 @@
+csv
+urllib.request
+bs4
+email.message
+ssl
+smtplib
