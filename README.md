@@ -1,2 +1,3 @@
 # covid_landkreisgoslar
-COVID Web Scraping + Automated E-mail
+Web Scraping COVID Data and sending it as an e-mail<br>
+
