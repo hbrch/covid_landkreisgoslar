@@ -9,8 +9,8 @@ email_pass = os.environ.get('EMAIL_PASS')
 def email_excel():
     msg = EmailMessage()
     msg['Subject'] = 'Aktualisierte COVID-Daten im Landkreis Goslar'
-    msg['From'] = '****.****@****.****'
-    msg['To'] = '****.****@****.****'
+    msg['From'] = msg_from
+    msg['To'] = msg_to
     msg.set_content('Daten zum Corona Virus für den Landkreis Goslar')
 
     with open('covid19_goslar.csv', 'rb') as f:
