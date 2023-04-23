@@ -31,6 +31,3 @@ writer.writerow([pop, infect, rate, seven_day, death, leth])
 file.close()
 
 excel_email.email_excel()
-
-
-
