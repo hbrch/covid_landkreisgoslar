@@ -25,8 +25,3 @@ def email_excel():
         smtp.login(msg_from, email_pass)
 
         smtp.send_message(msg)
-
-
-
-
-
